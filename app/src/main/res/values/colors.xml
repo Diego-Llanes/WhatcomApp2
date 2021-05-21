@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="WhatCom_LightGreen">#85BF59</color>
+    <color name="WhatCom_DarkGreen">#559046</color>
+    <color name="WhatCom_Blue">#14579E</color>
+
+
 </resources>

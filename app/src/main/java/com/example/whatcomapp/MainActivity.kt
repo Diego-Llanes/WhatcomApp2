@@ -1,4 +1,5 @@
-package com.example.whatcomapp
+import com.example.whatcomapp.R
+
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
