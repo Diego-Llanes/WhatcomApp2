@@ -1,4 +1,4 @@
-import com.example.whatcomapp.R
+package com.example.whatcomapp
 
 
 import android.os.Bundle
