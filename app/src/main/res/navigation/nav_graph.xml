@@ -37,6 +37,18 @@
         <action
             android:id="@+id/action_SignUp_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_SignUp_to_SignIn"
+            app:destination="@id/SignInPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/SignInPage"
+        android:name="com.example.whatcomapp.SignInPage"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/sign_in_page">
+        <action
+            android:id="@+id/action_SignIn_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
     </fragment>
 
 </navigation>

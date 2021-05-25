@@ -13,7 +13,7 @@ import com.example.whatcomapp.databinding.SignInPageBinding
 
 class SignInPage : Fragment() {
     private var _binding: SignInPageBinding? = null
-    private val binding get() = binding!!
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -23,7 +23,12 @@ class SignInPage : Fragment() {
         return binding.root
     }
 
-    //TODO : add onViewCreated method for navigation
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.buttonSignIn.setOnClickListener {
+            findNavController().navigate(R.id.action_SignIn_to_SecondFragment)
+        }
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()
