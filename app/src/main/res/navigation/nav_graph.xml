@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.whatcomapp.SecondFragment"
+        android:name="com.example.whatcomapp.LandingPage"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 

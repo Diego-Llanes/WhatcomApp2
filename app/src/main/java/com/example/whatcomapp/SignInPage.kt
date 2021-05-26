@@ -15,6 +15,7 @@ class SignInPage : Fragment() {
     private var _binding: SignInPageBinding? = null
     private val binding get() = _binding!!
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -25,7 +26,8 @@ class SignInPage : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.buttonSignIn.setOnClickListener {
+
+        binding.ButtonSignIn.setOnClickListener {
             findNavController().navigate(R.id.action_SignIn_to_SecondFragment)
         }
     }
